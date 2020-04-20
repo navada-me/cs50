@@ -3,5 +3,5 @@
 
 int main(void){
     float price = get_float("What's the price?\n");
-    printf("Your total is %f \n", price * 1.0625);
+    printf("Your total is %.2f \n", price * 1.0625);
 }
